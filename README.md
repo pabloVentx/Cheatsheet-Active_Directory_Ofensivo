@@ -31,9 +31,8 @@ No hace falta ninguna GitHub Action ni build: al ser HTML/CSS/JS plano + Markdow
 ## Estructura del repositorio
 
 ```
-index.html                     # shell de la app (una sola página)
-assets/css/style.css           # tema visual
-assets/js/app.js               # router, renderer markdown, búsqueda
+index.html                     # página única: estructura + estilos (Tailwind CDN) + carga de scripts
+assets/js/app.js               # fetch de manifest/markdown, cards, buscador, copiar comandos
 content/manifest.json          # define fases, técnicas y herramientas
 content/tecnicas/<fase>/*.md   # una técnica = un archivo
 content/herramientas/*.md      # fichas de referencia de herramientas
